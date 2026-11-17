@@ -39,3 +39,10 @@ must be checked before any Backlog read or write; never silently fall back to an
 
 - `SKILL.md` — the installable skill
 - `LICENSE` — MIT license
+
+## Repository-local variants
+
+- `variants/hpcsharp-compiler/SKILL.md` — the last in-repo state of this skill in the
+  `hpcsharp-compiler` repository, where the version gate is pinned to that project's
+  Backlog fork (`backlog --version` must contain `-thu.`) and examples use `THU-` task ids.
+  See `variants/hpcsharp-compiler/NOTES.md` for provenance and the exact diff.
